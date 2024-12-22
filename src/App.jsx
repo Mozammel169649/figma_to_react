@@ -1,11 +1,10 @@
 import "./App.css";
+import Navbar from "./components/share/Navbar";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="my-3 font-bold text-2xl text-center">Ready Template</h1>
-      </div>
+     <Navbar></Navbar>
     </>
   );
 }
